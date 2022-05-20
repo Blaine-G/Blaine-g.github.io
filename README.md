@@ -1,1 +1,0 @@
-# Blaine-g.github.io
