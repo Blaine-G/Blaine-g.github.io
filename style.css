@@ -11,3 +11,24 @@ body {
     padding: 16px;
     border-bottom: 3px solid black;
 }
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link {
+    text-align: center;
+    padding: 5px 0;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover {
+    background: black;
+    color: white;
+}
