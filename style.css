@@ -32,3 +32,20 @@ body {
     background: black;
     color: white;
 }
+
+.course-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.course-title {
+    margin-bottom: 0;
+}
+
+.sub-title {
+    margin-bottom: 0;
+}
+
+.sub-desc {
+    margin-top: 10px;
+}
