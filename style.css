@@ -38,14 +38,39 @@ body {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.course-title {
+.title {
     margin-bottom: 0;
 }
 
-.sub-title {
-    margin-bottom: 0;
-}
-
-.sub-desc {
+.desc {
     margin-top: 10px;
+}
+
+.small-hr {
+    width: 50px;
+    margin: auto;
+}
+
+.medium-hr {
+    width: 50%;
+    margin: auto;
+}
+
+.about {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.contact {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.center-screen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
